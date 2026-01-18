@@ -1,5 +1,5 @@
 -- Configuration: Frequency of the "freeze" pulse
-local TICK_INTERVAL = 300 
+local TICK_INTERVAL = settings.startup["spoil-update-tick-interval"].value
 
 --- Core Logic: Resets the spoilage timer for all items in a given inventory
 --- @param inventory LuaInventory? The inventory (Cargo Bay/Hub) to process
