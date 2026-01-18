@@ -1,0 +1,13 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 16. 01. 2026
+  Major Features:
+    - Addressed spoilable issues
+    - Spoilables now do not spoil in spacehubs
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 15. 01. 2026
+  Major Features:
+    - Initial release.
+    - Added features and settings to modify the distance between planets
+    - Added features and settings to modify spaceship acceleration
