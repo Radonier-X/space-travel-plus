@@ -3,7 +3,7 @@
     "author" : "Radonier",
     "title" : "Space Travel +",
     "description": "Changes space travel for the better (or worse) \nSignificantly increases the challenge of designing spaceships \nThis mod tests your patience ",
-    "version" : "0.1.1",
+    "version" : "0.1.2",
     "factorio_version": "2.0",
     "space_travel_required": true,
     "dependencies": [
