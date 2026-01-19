@@ -35,8 +35,8 @@ local brake_drag_enabled = settings.startup["brake-drag-enabled"].value
 local brake_drag = ""
 
 if brake_drag_enabled then
-    local brake_drag_coeff = 10
-    local brake_drag_speed_power = 1
+    local brake_drag_coeff = settings.startup["brake-drag-coefficient"].value
+    local brake_drag_speed_power = settings.startup["brake_drag_speed_power"].value
 
     --UNUSED
     local min_speed = 600 --km/s

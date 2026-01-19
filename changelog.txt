@@ -1,13 +1,23 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 19. 01. 2026
+  Minor Features:
+    - Added settings support for asteroid mass changes.
+    - Added settings support for spoilable update ticks.
+    - Added settings for brake drag expression.
+  Changes:
+    - Modified asteroid spawn definitions are off by default.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 16. 01. 2026
-  Major Features:
-    - Addressed spoilable issues
-    - Spoilables now do not spoil in spacehubs
+  Bugfixes:
+    - Addressed spoilables transport issue. (https://www.reddit.com/r/factorio/comments/1qdnu0i/comment/nzr2agz/)
+  Minor Features:
+    - Spoilables now do not spoil in spacehubs.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 15. 01. 2026
   Major Features:
     - Initial release.
-    - Added features and settings to modify the distance between planets
-    - Added features and settings to modify spaceship acceleration
+    - Added features and settings to modify the distance between planets.
+    - Added features and settings to modify spaceship acceleration.

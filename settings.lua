@@ -12,7 +12,7 @@ data:extend({
         name = "brake-drag-enabled",
         setting_type = "startup",
         default_value = true,
-        order = "e"
+        order = "e-a"
     },
     {
         type = "int-setting",
@@ -42,14 +42,14 @@ data:extend({
         type = "bool-setting",
         name = "modify-asteroid-definition",
         setting_type = "startup",
-        default_value = true,
+        default_value = false,
         order = "f"
     },
     {
         type = "bool-setting",
         name = "modify-asteroid-health",
         setting_type = "startup",
-        default_value = false,
+        default_value = true,
         order = "g-a"
     },
     {
@@ -74,6 +74,38 @@ data:extend({
         default_value = 300,
         minimum_value = 1,
         maximum_value = 18000,
-        order = "h"
+        order = "i"
+    },
+    {
+        type = "bool-setting",
+        name = "modify-asteroid-mass",
+        setting_type = "startup",
+        default_value = true,
+        order = "h-a"
+    },
+    {
+        type = "int-setting",
+        name = "asteroid-mass-modification-percent",
+        setting_type = "startup",
+        default_value = 50,
+        minimum_value = 1,
+        order = "h-b"
+    },
+    {
+        type = "int-setting",
+        name = "brake-drag-coefficient",
+        setting_type = "startup",
+        default_value = 10,
+        minimum_value = 0,
+        order = "e-b"
+    },
+    {
+        type = "int-setting",
+        name = "brake_drag_speed_power",
+        setting_type = "startup",
+        default_value = 1,
+        minimum_value = 1,
+        maximum_value = 5,
+        order = "e-c"
     }
 })
