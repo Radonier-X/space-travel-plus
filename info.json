@@ -9,7 +9,12 @@
     "dependencies": [
         "space-age",
         "? SpacePlatformETA",
+
         "(?) kry_safe_planets",
-        "(?) PlanetsLib"
+        "(?) PlanetsLib",
+        "(?) Cosmic-Social-Distancing",
+        "(?) Planetary-Distance-Adjustments",
+        "(?) Redrawn-Space-Connections",
+        "(?) Tiered-Solar-System"
     ]
 }
