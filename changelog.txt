@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 09. 02. 2026
+  Bugfixes:
+    - Fixed space connections not updating due to mod loading first (https://mods.factorio.com/mod/space-travel-plus/discussion/698621e048e1dd9239e7388c)
+---------------------------------------------------------------------------------------------------
 Version: 0.1.2
 Date: 19. 01. 2026
   Minor Features:
